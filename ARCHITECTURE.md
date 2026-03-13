@@ -35,7 +35,7 @@ The CI pipeline should evolve with the repository and typically enforce:
 - Test execution
 - Any required security or policy checks
 
-In this foundation stage, CI focuses on repository structure and documentation integrity. Product-specific build/test jobs are added when product code exists.
+In this foundation stage, CI focuses on repository structure and documentation integrity. Workflow-file syntax validation is kept in a separate dedicated workflow so CI definitions can be validated independently of the main repository hygiene pipeline. Product-specific build/test jobs are added when product code exists.
 
 ## Documentation requirements
 

@@ -15,9 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate workflow YAML syntax
-        run: ruby -e 'require "yaml"; YAML.load_file(".github/workflows/ci.yml")'
-
       - name: Validate required foundation files
         run: |
           set -euo pipefail
